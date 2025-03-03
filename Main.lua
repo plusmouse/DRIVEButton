@@ -34,6 +34,7 @@ EventUtil.ContinueOnAddOnLoaded("DRIVEButton", function()
   local watcher = CreateFrame("Frame")
   watcher:RegisterEvent("TRAIT_CONFIG_LIST_UPDATED")
   watcher:RegisterEvent("PLAYER_LOGIN")
+  watcher:RegisterEvent("TRAIT_CONFIG_CREATED")
   watcher:SetScript("OnEvent", function()
     if registered then
       return
