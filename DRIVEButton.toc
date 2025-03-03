@@ -2,6 +2,7 @@
 ## Title: DRIVE Button
 ## Version: @project-version@
 ## Author: plusmouse
+## SavedVariables: DRIVE_BUTTON_MINIMAP
 ## Category-enUS: User Interface
 ## Category-deDE: Benutzerinterface
 ## Category-esES: Interfaz de usuario
